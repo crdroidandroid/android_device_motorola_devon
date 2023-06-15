@@ -30,4 +30,10 @@ Project
     <string name="config_batCurCap">/sys/class/power_supply/bms/charge_counter</string>
     <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
     <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+
+   <!-- Whether to show Minimum and 
+   Maximum refresh rate in display 
+   settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
+    <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
 </resources>

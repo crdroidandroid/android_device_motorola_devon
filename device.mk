@@ -25,6 +25,11 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Call recording
+PRODUCT_PACKAGES += \
+
+com.google.android.apps.dialer.call_recording_audio.features.xml
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st

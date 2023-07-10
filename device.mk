@@ -27,8 +27,11 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Call recording
 PRODUCT_PACKAGES += \
-
 com.google.android.apps.dialer.call_recording_audio.features.xml
+
+# Charger
+PRODUCT_PACKAGES += \
+charger_res_images
 
 # NFC
 PRODUCT_PACKAGES += \

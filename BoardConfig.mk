@@ -42,6 +42,9 @@ BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 105
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2023-03-01
 

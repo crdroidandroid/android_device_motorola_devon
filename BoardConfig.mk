@@ -41,6 +41,9 @@ BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 100663296
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := /proc/driver/dclick
+
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom

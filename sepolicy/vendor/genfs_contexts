@@ -1,0 +1,2 @@
+# Display
+genfscon proc /driver/dclick                                 u:object_r:vendor_proc_display:s0
